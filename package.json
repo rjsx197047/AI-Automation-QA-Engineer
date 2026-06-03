@@ -20,7 +20,9 @@
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
     "db:studio": "prisma studio",
-    "db:validate": "prisma validate"
+    "db:validate": "prisma validate",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "engines": {
     "node": ">=18.17"
@@ -41,6 +43,7 @@
     "@types/node": "^22.0.0",
     "prisma": "^6.19.3",
     "tsx": "^4.22.3",
-    "typescript": "^5.6.0"
+    "typescript": "^5.6.0",
+    "wrangler": "^4.93.1"
   }
 }
